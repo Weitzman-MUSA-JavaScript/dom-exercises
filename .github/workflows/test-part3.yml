@@ -1,4 +1,4 @@
-name: Lint the JavaScript code style
+name: Testing Class Selectors exercise 2
 
 on:
   pull_request:
@@ -19,7 +19,8 @@ jobs:
         node-version: 24.x
         cache: 'npm'
     - name: Install dependencies
-      run: npm install --only=dev
-    - name: Run eslint
+      run: npm install --only=prod
+    - name: Run jest
       run: |
-        npx eslint --color .
+        npx http-server --silent --port 8080 &
+        npx jest __tests__/test_part3.js --color=true
