@@ -4,8 +4,6 @@ representing the tags, using the `template` feature of HTML. See the following
 for more information: https://stackoverflow.com/a/35385518/123776
 ==================== */
 
-/* eslint-disable no-unused-vars */
-
 /**
  * @param {String} HTML representing a single element
  * @return {Element}
