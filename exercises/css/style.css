@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+	padding: 0.5rem;
+	border-width: 0 1px;
+	border-style: solid;
+	border-color: rgb(128 128 128 / 25%);
+	text-align: center;
+}
+
+.part-number::before {
+    content: "Part ";
+}
+
+.part-description {
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.part-number,
+.part-description {
+    display: block;
+}
