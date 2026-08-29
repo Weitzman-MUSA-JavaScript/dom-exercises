@@ -1,0 +1,5 @@
+export default {
+  'transform': {},
+  'testPathIgnorePatterns': ['__tests__/jest-extensions.js'],
+  'preset': 'jest-puppeteer',
+};
