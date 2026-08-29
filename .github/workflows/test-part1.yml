@@ -1,4 +1,4 @@
-name: Testing ID Selectors exercise
+name: Testing Part 1 - ID Selectors
 
 on:
   pull_request:

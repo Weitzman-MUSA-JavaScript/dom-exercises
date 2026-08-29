@@ -1,4 +1,4 @@
-name: Testing Element Text Change exercise
+name: Testing Part 4 - Changing Element Text
 
 on:
   pull_request:

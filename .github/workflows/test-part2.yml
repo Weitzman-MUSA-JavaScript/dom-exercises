@@ -1,4 +1,4 @@
-name: Testing Class Selectors exercise 1
+name: Testing Part 2 - Class Selectors
 
 on:
   pull_request:

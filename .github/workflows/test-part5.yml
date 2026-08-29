@@ -1,4 +1,4 @@
-name: Testing Element Add Children exercise
+name: Testing Part 5 - Adding Child Elements
 
 on:
   pull_request:
