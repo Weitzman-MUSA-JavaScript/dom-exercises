@@ -4,8 +4,11 @@
 
 ## Introduction
 
-Open the index.html page in your browser, and update the variables and functions
-below so that the results all read "Success!".
+Run a local server and open the /exercises/ page in your browser. Update the
+variables and functions below so that the results on the page all say
+"Success!". You will have to refer to the document structure in the index.html
+file in the exercises/ folder in order to target the appropriate elements. YOU
+SHOULD NOT MODIFY THE HTML FILE ITSELF.
 
 ===================== */
 
